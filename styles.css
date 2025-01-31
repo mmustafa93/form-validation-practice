@@ -1,0 +1,19 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 0 auto;
+    gap: 0.8rem;
+}
+
+  
+/* invalid fields */
+span, input:invalid {
+    border-color: #900;
+    background-color: #fdd;
+}
+
+input:focus:invalid {
+    outline: none;
+}
+  
